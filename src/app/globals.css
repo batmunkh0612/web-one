@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 100%;
+}
+
+body {
+  background: #0a0a0a;
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+@keyframes ripple {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.6;
+  }
+  50% {
+    width: 200px;
+    height: 200px;
+    opacity: 0.3;
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-square {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.7;
+  }
+  30% {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+  }
+  60% {
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+  }
+  100% {
+    width: 450px;
+    height: 450px;
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-square-sequential {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  5% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.7;
+  }
+  15% {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+  }
+  30% {
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+  }
+  50% {
+    width: 450px;
+    height: 450px;
+    opacity: 0;
+  }
+  100% {
+    width: 450px;
+    height: 450px;
+    opacity: 0;
+  }
+}
