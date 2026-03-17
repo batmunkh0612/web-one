@@ -27,7 +27,7 @@ export const HOTEL_ADV_CUES: AdvCue[] = [
     start: T,
     end: END,
     header: 'Мэдээллийн аюулгүй байдал',
-    subtext: 'Router дээрээ хадлагын эсрэг хамгаалалттай ​',
+    subtext: 'Router дээрээ халдлагын эсрэг хамгаалалттай ​',
     position: { top: '24%', left: '78%' },
     width: '19%',
     height: '7.4%',

@@ -17,8 +17,8 @@ export default function ControlMenuView({
         onActivate={onUniversity}
         className="text-6xl flex min-w-0 flex-col items-center"
         iconSrc="/Screen2University.png"
-        iconAlt="Их сургууль"
-        label="Их сургууль"
+        iconAlt="Сургууль"
+        label="Сургууль"
         labelClassName="font-medium text-[clamp(1rem,2vw,40px)] leading-none tracking-normal text-center text-white min-w-0 break-words"
       />
       <IconPressLink

@@ -35,7 +35,7 @@ export const UNIVERSITY_ADV_CUES: AdvCue[] = [
     start: T,
     end: END,
     header: 'Мэдээллийн аюулгүй байдал',
-    subtext: 'Router дээрээ хадлагын эсрэг хамгаалалттай ​',
+    subtext: 'Router дээрээ халдлагын эсрэг хамгаалалттай ​',
     position: { top: '53%', left: '78%' },
 
     width: '19%',

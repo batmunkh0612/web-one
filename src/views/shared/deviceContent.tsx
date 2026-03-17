@@ -47,7 +47,7 @@ const S530_24T4XE_CONTENT: DeviceVideoContent = {
   title: 'Switch',
   model: 'S530-24T4XE',
   features: [
-    { icon: <IconLocation />, text: 'Их сургууль, эмнэлэг, томоохон байгууллагад тохиромжтой​' },
+    { icon: <IconLocation />, text: 'Сургууль, эмнэлэг, томоохон байгууллагад тохиромжтой​' },
     { icon: <IconServer />, text: '24 портын layer 3-ийн core switch​' },
     { icon: <IconNetwork />, text: 'Хоёроос дээш switch-ийг нэг болгон виртуалчлах боломжтой​' },
     { icon: <IconSettings />, text: 'Төхөөрөмжийн менежмент, сүлжээний тохиргоог хялбараар шийднэ​​' },

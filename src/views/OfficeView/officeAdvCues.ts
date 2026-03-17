@@ -35,7 +35,7 @@ export const OFFICE_ADV_CUES: AdvCue[] = [
     start: T,
     end: END,
     header: 'Мэдээллийн аюулгүй байдал',
-    subtext: 'Router дээрээ хадлагын эсрэг хамгаалалттай ​',
+    subtext: 'Router дээрээ халдлагын эсрэг хамгаалалттай ​',
     position: { top: '25%', left: '78%' },
     width: '19%',
     height: '7.4%',
